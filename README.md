@@ -1,12 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
@@ -14,39 +5,25 @@ npm run dev
     <img src="assets/hero/hero-motion.svg" alt="ReviewForge AI — animated project plate showing policy &rarr; control &rarr; evidence. Motion depicts this project's real state transition." width="100%">
   </picture>
 </p>
+# Reviewforge Ai
+**STATUS: LAUNCH-SITE SCAFFOLD**
+This repository is a launch site, not a product. It has no product surface yet.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/computational-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/computational-light.svg">
-    <img src="assets/hero/computational-motion.svg" alt="State machine: policy &rarr; control &rarr; evidence." width="100%">
-  </picture>
-</p>
+That is stated plainly rather than dressed up. A scaffold described as a platform wastes the reader's time; a scaffold described as a scaffold lets them decide whether to keep looking.
 
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Status
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| | |
+| --- | --- |
+| Product surface | none |
+| Tests | none |
+| CI | none |
+| Documentation | this file |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Why it exists
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Every venture in this portfolio has a public entry point. Where the product is not ready to ship, the entry point is marked as a scaffold rather than filled with claims it cannot support. This repository will be replaced by real content when there is something real to show.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Part of the DUNG30N5 × NOAERTH portfolio. Repository: [`M4G3LL4N0/reviewforge-ai`](https://github.com/M4G3LL4N0/reviewforge-ai).
