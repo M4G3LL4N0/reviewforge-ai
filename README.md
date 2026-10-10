@@ -1,137 +1,95 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="ReviewForge AI — animated project plate showing policy &rarr; control &rarr; evidence. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
-# Reviewforge Ai
-**STATUS: LAUNCH-SITE SCAFFOLD**
-This repository is a launch site, not a product. It has no product surface yet.
+# reviewforge-ai
 
-That is stated plainly rather than dressed up. A scaffold described as a platform wastes the reader's time; a scaffold described as a scaffold lets them decide whether to keep looking.
+> A review-workflow concept. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-## Status
+The implementation summary below is intentionally conservative. Claims from NORTHSTAR are not presented as shipped functionality.
 
-| | |
-| --- | --- |
-| Product surface | none |
-| Tests | none |
-| CI | none |
-| Documentation | this file |
+- [GitHub repository](https://github.com/M4G3LL4N0/reviewforge-ai)
+- [Project site](https://www.noaerth.com/ventures/reviewforge-ai)
 
-## Why it exists
+<!-- NOAERTH_IMAGE_SLOT: reviewforge-ai/hero -->
 
-Every venture in this portfolio has a public entry point. Where the product is not ready to ship, the entry point is marked as a scaffold rather than filled with claims it cannot support. This repository will be replaced by real content when there is something real to show.
+## What it is
 
----
+A review-workflow concept. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-Part of the DUNG30N5 × NOAERTH portfolio. Repository: [`M4G3LL4N0/reviewforge-ai`](https://github.com/M4G3LL4N0/reviewforge-ai).
+This repository is part of the NOAERTH venture ecosystem. The current public-facing evidence identifies it as a prototype / active development rather than a production-ready system.
 
-<!-- TRILLIONX:presentation:begin -->
+## Capabilities
 
-### Animated surfaces
+### Available evidence
 
-Generated from this repository's own source tree: every count, route and module below was measured, not written by hand.
+- The repository contains the implementation and documentation associated with the project description above.
+- The technology signals currently visible in the local project are listed in the technical notes below.
+- No additional capability is asserted here without a direct implementation reference.
 
-#### Identity
+### Experimental or planned
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/hero-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/hero-motion.svg">
-</picture>
+Roadmap intent is deliberately not represented as shipped functionality. Review NORTHSTAR and source implementation together before adding future-facing claims.
 
-#### Entry points
+<!-- NOAERTH_IMAGE_SLOT: reviewforge-ai/workflow -->
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/terminal-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/terminal-motion.svg">
-</picture>
+## How it works
 
-#### Modules
+The current evidence supports a repository-level application or tool workflow, but does not provide enough verified detail in the Part 1 record to publish a component-level architecture diagram. The architecture slot is reserved for a deterministic diagram after the source flow is reviewed.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/architecture-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/architecture-motion.svg">
-</picture>
+<!-- NOAERTH_IMAGE_SLOT: reviewforge-ai/architecture -->
 
-#### Routes
+## Quick start
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
+### Prerequisites
 
-#### Primitives
+- A runtime suitable for `Node.js`.
+- A clean checkout of this repository.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/state_machine-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/state_machine-light.svg">
-  <img alt="Primitives diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/state_machine-motion.svg">
-</picture>
+### Install
 
-#### Composition
+```sh
+pnpm install
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/component_map-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/component_map-motion.svg">
-</picture>
+### Run locally
 
-#### Build and tests
+```sh
+pnpm run dev
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/build-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/build-motion.svg">
-</picture>
+### Build
 
-#### Workflow
+```sh
+pnpm run build
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/workflow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/workflow-light.svg">
-  <img alt="Workflow diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/workflow-motion.svg">
-</picture>
+Commands are included only when they were detected in the repository manifest; verify environment-specific requirements before deployment.
 
-#### Domain
+## Technical notes
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/domain-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/domain-light.svg">
-  <img alt="Domain diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/domain-motion.svg">
-</picture>
+- **Primary language:** JavaScript/TypeScript
+- **Runtime:** Node.js
+- **Package manager:** pnpm
+- **Framework and integration signals:** Go, Next.js, Rust
+- **Entry-point signals:** package.json
+- **Test evidence:** TEST_PLAN.md
+- **Repository topics:** `react`, `typescript`, `app`, `components`, `dung30n5`, `next-js`, `noaerth`, `prototype`
 
-#### Identity object
+## Status and roadmap
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/footer-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for reviewforge-ai" src="https://raw.githubusercontent.com/M4G3LL4N0/reviewforge-ai/main/.github-art/surfaces/footer-motion.svg">
-</picture>
+**Current status:** Prototype / active development.
 
-<!-- TRILLIONX:presentation:end -->
+**Current:** The repository and its documented implementation are available for inspection.
 
-<!-- TRILLIONX:evidence:begin -->
+**Next:** Reconcile the README, source behavior, and safe public product language before adding deeper examples or diagrams.
 
-## What is measurable here
+**Future:** Product direction is maintained separately and must not be read as a shipped feature list.
 
-Generated by `.github-art` from the source tree at publish time.
+## Contributing and license
 
-| Signal | Value |
-| --- | --- |
-| HTTP routes | 15 |
-| Entry points | 1 |
-| Module roots | 3 |
-| Test files | 0 |
-| CI workflows | 0 |
-| Distinctive stack | scaffold only |
-| Status | PROTOTYPE |
-| Evidence confidence | E3 |
-| Animated surfaces | 10 |
+Follow the repository's existing contribution and licensing files where present. This README does not invent an open-source license or contribution policy.
 
-<!-- TRILLIONX:evidence:end -->
+## Visual documentation
+
+Image slots are intentionally comments until authentic screenshots, deterministic diagrams, or approved conceptual visuals exist. No absent image file is referenced.
+
+## NOAERTH
+
+[NOAERTH](https://www.noaerth.com) is the venture ecosystem associated with this project.
